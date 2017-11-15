@@ -53,4 +53,20 @@ public final class Joke {
 				.append("rubrics", rubrics)
 				.toString();
 	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String[] getRubrics() {
+		return rubrics;
+	}
+
+	public void setRubrics(String[] rubrics) {
+		this.rubrics = rubrics;
+	}
 }
